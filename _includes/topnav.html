@@ -13,10 +13,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-				<!--
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a>
+                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.blogurl }}" target="_blank">Blog</a>
                 </li>
-				-->
                 <li {% if page.sectionid=='cloud' %} class="active" {% endif %}><a href="{{ "/cloud" | relative_url }}">Cloud</a></li>
                 <li {% if page.sectionid=='ai' %} class="active" {% endif %}><a href="{{ "/ai" | relative_url }}">AI</a></li>
                 <li {% if page.sectionid=='rnd' %} class="active" {% endif %}><a href="{{ "/rnd" | relative_url }}">R&D</a></li>    

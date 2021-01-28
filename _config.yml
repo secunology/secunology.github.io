@@ -6,6 +6,7 @@ lang: en-US
 
 baseurl: ""
 url: https://secunologylab.com
+blogurl: https://blog.secunologylab.com
 git_address: https://github.com/aksakalli/jekyll-doc-theme
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 bootwatch: paper
